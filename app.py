@@ -20,7 +20,7 @@ total_mulheres = totais["Mulheres livres"] + totais["Mulheres escravizadas"]
 linhas = []
 for grupo, total in totais.items():
     if grupo.startswith("Homens"):
-        bese = total_homens
+        base = total_homens
     else:
         base = total_mulheres
     linhas.append(
